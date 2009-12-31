@@ -1,0 +1,15 @@
+<html>
+<head>
+  <title>SimpleCI</title>
+</head>
+<body>
+  <h1>SimpleCI</h1>
+  [% FOREACH project IN projects %]
+    <h2>[% project.project %]</h2>
+    [% FOREACH status in project.stati %]
+      [% status %]
+    [% END %]
+    <hr />
+  [% END %]
+</body>
+</html>

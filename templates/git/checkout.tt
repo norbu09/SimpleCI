@@ -1,0 +1,6 @@
+<table>
+<tr><td>[% date %]</td><td>[% commit %]</td></tr>
+<tr><td colspan="2">by [% author %]</td></tr>
+<tr><td colspan="2"><pre>[% content %]</pre></td></tr>
+<tr><td colspan="2"><a href="[% report %]">[% status %]</a></td></tr>
+</table>
